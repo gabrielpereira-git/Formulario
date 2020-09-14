@@ -1,0 +1,64 @@
+body{
+	background-image: url(img/fundo.jpg);
+	width: 100%;
+	height: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	color: white; 
+	text-align: center;
+	padding: 6px;
+
+}
+
+form{
+	font-size: 16px;
+	background-color:rgba(10,23,55,0.9);
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 0 10px 10px 10px;
+	border-radius: 20px;
+
+}
+
+input, textarea{
+	width: 470px;
+	padding: 10px;
+	border-radius: 15px;
+	border:1px solid;
+}
+
+.enviar input{
+
+background-color:#228B22;
+height: 40px;
+width: 150px;
+font-weight: bold;
+border-radius: 10px;
+border:1px solid;
+cursor: pointer;
+
+}
+
+
+.enviar input:hover{
+	background: #32CD32;
+	color: #000;
+}
+
+textarea{
+	width: 470px;
+	height: 120px;
+	line-height: 20px;
+}
+
+p{
+	border-radius: 30px;
+}

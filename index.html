@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>formulário</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <form name="action" method="post">
+  	<h1>CONTATO</h1>
+
+  	<p class="nome">
+  		<input type="text" name="nome" placeholder="Digite seu nome" required="required">
+  	</p>
+
+  	<p class="email">
+  		<input type="email" name="email" placeholder="Digite seu Email" required="required">
+  	</p>
+
+  	<p class="assunto">
+  		<input type="text" name="assunto" placeholder="Informe o assunto" required="required">
+  	</p>
+  	<p class="mensagem">
+  		<textarea name="mensagem" placeholder="Deixe sua mensagem"></textarea>
+  	</p>
+  	<p class="enviar">
+  		<input id="btn" type="submit" name="enviar"velue="Enviar">
+  	</p>
+  </form>
+
+
+<script>
+	var botao = document.getElementById("btn");
+
+	botao.addEventListener('click', function(){
+		alert('Agradecemos seu contato ! Em breve responderemos sua mensagem.')
+	})
+</script>
+</body> 
+</html>
